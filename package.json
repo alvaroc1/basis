@@ -3,7 +3,7 @@
   "main": "dist/basis.cjs.js",
   "module": "dist/basis.esm.js",
   "scripts": {
-    "prebuild": "tsc --declaration --rootDir src --outDir dist src/main.ts",
+    "prebuild": "tsc --declaration --rootDir src --outDir dist src/basis.ts",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
@@ -20,5 +20,5 @@
     "tslib": "^2.0.0",
     "typescript": "^3.9.5"
   },
-  "version": "0.0.1-a"
+  "version": "0.0.1-b"
 }
