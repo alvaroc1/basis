@@ -1,7 +1,6 @@
 {
   "name": "@alvaroc1/basis",
-  "main": "dist/basis.cjs.js",
-  "module": "dist/basis.esm.js",
+  "main": "basis.js",
   "scripts": {
     "prebuild": "tsc --declaration --rootDir src --outDir dist src/basis.ts",
     "build": "rollup -c",
@@ -9,9 +8,6 @@
     "test": "node test/test.js",
     "pretest": "npm run build"
   },
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
